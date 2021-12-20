@@ -1,0 +1,201 @@
+{
+  "categories":[
+    {
+      "id":1,
+      "categoryName":"Comic"
+    },
+    {
+      "id":2,
+      "categoryName":"Anime"
+    },
+    {
+      "id":3,
+      "categoryName":"Game"
+    },
+    {
+      "id":4,
+      "categoryName":"Toy"
+    }
+  ],
+  "pages":[
+    {
+      "id":1,
+      "logoImg":"https://www.pngitem.com/pimgs/m/29-291573_logo-de-hot-toys-hd-png-download.png",
+      "title":"Hot Toys",
+      "country":"Hong Kong",
+      "categories":{
+        "id":1,
+        "categoryName":"Comic"
+      },
+      "coverImg":"https://news.toyark.com/wp-content/uploads/sites/4/2021/07/z-Hot-Toys-Marvel-July-2021.jpg",
+      "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam aut a, sunt harum, corrupti dolorem exercitationem magni error deserunt incidunt, ullam esse? Delectus, accusantium? Dicta natus ab sunt repudiandae debitis.",
+      "youtubeLink":"https://youtu.be/2OdJh7gQCIc",
+      "socialmediaLink":"https://www.instagram.com/hottoyscollectibles/?hl=en"
+    },
+    {
+      "id":2,
+      "logoImg":"https://www.bandai.com/wp-content/themes/bandai/images/bandai_logo_header.png",
+      "title":"Bandai",
+      "country":"Japan",
+      "categories":{
+        "id":2,
+        "categoryName":"Anime"
+      },
+      "coverImg":"https://www.gwigwi.com/wp-content/uploads/2021/06/Bandai-Namco-Menggoda-Patung-Gundam-Ukuran-Hidup-Baru-Berita.jpg",
+      "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam aut a, sunt harum, corrupti dolorem exercitationem magni error deserunt incidunt, ullam esse? Delectus, accusantium? Dicta natus ab sunt repudiandae debitis.",
+      "youtubeLink":"https://youtu.be/U01HL4lgfKg",
+      "socialmediaLink":"https://www.instagram.com/bandaicandy/"
+    },
+    {
+      "id":3,
+      "logoImg":"https://www.lego.com/static/favicon/lego-logo-512.png",
+      "title":"LEGO",
+      "country":"Denmark",
+      "categories":{
+        "id":4,
+        "categoryName":"Toy"
+      },
+      "coverImg":"https://i.guim.co.uk/img/media/a770db40f4a0dbd5853179af7b7695a4a21f9d75/385_664_6096_3658/master/6096.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=276edc922eaf4ba93b3b36b3de118b57",
+      "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam aut a, sunt harum, corrupti dolorem exercitationem magni error deserunt incidunt, ullam esse? Delectus, accusantium? Dicta natus ab sunt repudiandae debitis.",
+      "youtubeLink":"https://youtu.be/C_0Hs6snvTs",
+      "socialmediaLink":"https://www.instagram.com/lego/?hl=en"
+    },
+    {
+      "id":4,
+      "logoImg":"https://iconape.com/wp-content/png_logo_vector/mappa-logo.png",
+      "title":"MAPPA",
+      "country":"Japan",
+      "categories":{
+        "id":2,
+        "categoryName":"Anime"
+      },
+      "coverImg":"https://buzzpedia.in/wp-content/uploads/2021/09/mappa-anime-1200x675.jpg",
+      "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam aut a, sunt harum, corrupti dolorem exercitationem magni error deserunt incidunt, ullam esse? Delectus, accusantium? Dicta natus ab sunt repudiandae debitis.",
+      "youtubeLink":"https://youtu.be/8ni4BabhtSg",
+      "socialmediaLink":"https://www.instagram.com/mappastudios/?hl=en"
+    },
+    {
+      "id":5,
+      "logoImg":"https://yt3.ggpht.com/fGvQjp1vAT1R4bAKTFLaSbdsfdYFDwAzVjeRVQeikH22bvHWsGULZdwIkpZXktcXZc5gFJuA3w=s900-c-k-c0x00ffffff-no-rj",
+      "title":"Marvel Entertainment",
+      "country":"USA",
+      "categories":{
+        "id":1,
+        "categoryName":"Comic"
+      },
+      "coverImg":"https://media.wired.com/photos/5955ceabcbd9b77a41915cf6/191:100/w_1280,c_limit/marvel-characters.jpg",
+      "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam aut a, sunt harum, corrupti dolorem exercitationem magni error deserunt incidunt, ullam esse? Delectus, accusantium? Dicta natus ab sunt repudiandae debitis.",
+      "youtubeLink":"https://youtu.be/hnBzcLQUhYQ",
+      "socialmediaLink":"https://www.instagram.com/marvel/?hl=en"
+    }
+  ],
+  "products":[
+    {
+      "id":1,
+      "pages":{
+        "id":1,
+        "title":"Hot Toys"
+      },
+      "productImg":"http://www.hottoys.com.hk/photos/PD1639543677Q0t.jpg?1639914502942",
+      "productName":"Dr Strange",
+      "productDescription":"SPIDER-MAN: NO WAY HOME DOCTOR STRANGE 1/6TH SCALE COLLECTIBLE FIGURE, Release date: Approximately Q1 – Q2, 2023"
+    },
+    {
+      "id":2,
+      "pages":{
+        "id":1,
+        "title":"Hot Toys"
+      },
+      "productImg":"http://www.hottoys.com.hk/photos/aUQy/PNuPr0DkM2GeocUrcZUPxUAPdoKHlw8hX716.jpg?1639916778110",
+      "productName":"Spider-Man",
+      "productDescription":"SPIDER-MAN: NO WAY HOME SPIDER-MAN (BATTLING VERSION) MOVIE PROMO EDITION 1/6TH SCALE COLLECTIBLE FIGURE, Release date: Approximately Q1 – Q2, 2023"
+    },
+    {
+      "id":3,
+      "pages":{
+        "id":2,
+        "title":"Bandai"
+      },
+      "productImg":"https://p-bandai.com/img/sg/p/m/N2606487001001_002.jpg",
+      "productName":"METAL ROBOT SPIRITS",
+      "productDescription":"Re-GZ Custom is now available from Metal Robot Spirits series. The modeling was conducted under the supervision of Mika Akitaka who designed the Re-GZ Custom mecha."
+    },
+    {
+      "id":4,
+      "pages":{
+        "id":2,
+        "title":"Bandai"
+      },
+      "productImg":"https://p-bandai.com/img/sg/p/m/N2554770001001_006.jpg",
+      "productName":"HG 1/144 BLACK RIDER",
+      "productDescription":"This product cannot be found in model kits shops. This product may be on sale in events or other projects held by our company."
+    },
+    {
+      "id":5,
+      "pages":{
+        "id":2,
+        "title":"Bandai"
+      },
+      "productImg":"https://p-bandai.com/img/sg/p/m/N2572769001002_002.jpg",
+      "productName":"MG 1/100 LIGHTNING STRIKE GUNDAM Ver.RM",
+      "productDescription":"This product cannot be found in model kits shops. This product may be on sale in events or other projects held by our company."
+    },
+    {
+      "id":6,
+      "pages":{
+        "id":3,
+        "title":"LEGO"
+      },
+      "productImg":"https://images-eu.ssl-images-amazon.com/images/I/81ufYimxjGL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "productName":"LEGO 71704 NINJAGO Legacy Kai Fighter ",
+      "productDescription":"Kai's fighter toy jet from season 3 of the TV series features folding wings, an adjustable cockpit and 2 spring-loaded shooters"
+    },
+    {
+      "id":7,
+      "pages":{
+        "id":3,
+        "title":"LEGO"
+      },
+      "productImg":"https://m.media-amazon.com/images/I/81+16X13YIL._AC_SY300_SX300_.jpg",
+      "productName":"LEGO 75300 Star Wars Imperial TIE Fighter",
+      "productDescription":"Features a brick-build version of the iconic missile-shooting Imperial TIE fighter from the classic Star Wars trilogy, with 3 characters"
+    },
+    {
+      "id":8,
+      "pages":{
+        "id":3,
+        "title":"LEGO"
+      },
+      "productImg":"https://m.media-amazon.com/images/I/91gu9dTePZL._AC_SL1500_.jpg",
+      "productName":"LEGO 76190 Marvel Iron Man Monger Mayhem ",
+      "productDescription":"This LEGO Marvel Iron Man mech set features posable limbs and a working suspension connecting the body and shoulders for realistic movement"
+    },
+    {
+      "id":9,
+      "pages":{
+        "id":3,
+        "title":"LEGO"
+      },
+      "productImg":"https://m.media-amazon.com/images/I/9126Q6-qtyL._AC_SL1500_.jpg",
+      "productName":"LEGO 42119 Technic Monster Jam Max-D Truck ",
+      "productDescription":"Two building challenges in 1 set - this cool Max-D 2 in 1 monster truck toy rebuilds into a pull-back quad bike for longer lasting playtime"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
