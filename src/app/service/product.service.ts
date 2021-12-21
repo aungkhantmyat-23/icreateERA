@@ -12,6 +12,7 @@ export class ProductService {
   constructor(private http:HttpClient) { }
 
   getProducts():Observable<any>{
-    return this.http.get<Product[]>('assets/db.json').pipe(pluck('courses'));
+    return this.http.get<Product[]>('assets/db.json')
+    .pipe(pluck('products'));
   }
 }

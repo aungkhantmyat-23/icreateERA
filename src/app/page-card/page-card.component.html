@@ -1,9 +1,9 @@
 <div class="card shadow" (click)="viewDetail(pageItem)">
     <img src="{{ pageItem.logoImg }}" class="card-img-top" alt="..." />
     <div class="card-body">
-      <h5 class="card-title">{{ pageItem.title }}</h5>
+      <h5 class="card-title">{{ pageItem.title | slice: 0:15 }}</h5>
       <p class="card-text">
-        {{ pageItem.country }}
+        {{ pageItem.country  }}
       </p>
       <div class="button-container">
         <a href="#" class="btn btn-primary"

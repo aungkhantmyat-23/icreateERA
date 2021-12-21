@@ -15,6 +15,10 @@
     {
       "id":4,
       "categoryName":"Toy"
+    },
+    {
+      "id":5,
+      "categoryName":"Movie"
     }
   ],
   "pages":[
@@ -80,13 +84,27 @@
       "title":"Marvel Entertainment",
       "country":"USA",
       "categories":{
-        "id":1,
-        "categoryName":"Comic"
+        "id":5,
+        "categoryName":"Movie"
       },
       "coverImg":"https://media.wired.com/photos/5955ceabcbd9b77a41915cf6/191:100/w_1280,c_limit/marvel-characters.jpg",
       "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam aut a, sunt harum, corrupti dolorem exercitationem magni error deserunt incidunt, ullam esse? Delectus, accusantium? Dicta natus ab sunt repudiandae debitis.",
       "youtubeLink":"https://youtu.be/hnBzcLQUhYQ",
       "socialmediaLink":"https://www.instagram.com/marvel/?hl=en"
+    },
+    {
+      "id":6,
+      "logoImg":"https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg",
+      "title":"DC Comic",
+      "country":"USA",
+      "categories":{
+        "id":1,
+        "categoryName":"Comic"
+      },
+      "coverImg":"https://www.looper.com/img/gallery/why-what-just-happened-to-dc-universe-is-so-exciting/intro-1600458433.jpg",
+      "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam aut a, sunt harum, corrupti dolorem exercitationem magni error deserunt incidunt, ullam esse? Delectus, accusantium? Dicta natus ab sunt repudiandae debitis.",
+      "youtubeLink":"https://youtu.be/Yn1VqHSZznE",
+      "socialmediaLink":"https://www.instagram.com/dccomics/?hl=en"
     }
   ],
   "products":[
@@ -173,12 +191,52 @@
     {
       "id":9,
       "pages":{
+        "id":5,
+        "title":"Marvel Entertainment"
+      },
+      "productImg":"https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg",
+      "productName":"Spider-Man: No Way Home",
+      "productDescription":"With Spider-Man's identity now revealed, our friendly neighborhood web-slinger is unmasked and no longer able to separate his normal life as Peter Parker from the high stakes of being a superhero. When Peter asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."
+    },
+    {
+      "id":10,
+      "pages":{
         "id":3,
         "title":"LEGO"
       },
       "productImg":"https://m.media-amazon.com/images/I/9126Q6-qtyL._AC_SL1500_.jpg",
       "productName":"LEGO 42119 Technic Monster Jam Max-D Truck ",
       "productDescription":"Two building challenges in 1 set - this cool Max-D 2 in 1 monster truck toy rebuilds into a pull-back quad bike for longer lasting playtime"
+    },
+    {
+      "id":11,
+      "pages":{
+        "id":5,
+        "title":"Marvel Entertainment"
+      },
+      "productImg":"https://www.themoviedb.org/t/p/original/lYYUrFTl0JtEvqxjQLsodTe4j0S.jpg",
+      "productName":"Eternals",
+      "productDescription":"The Eternals, a race of immortal beings with superhuman powers who have secretly lived on Earth for thousands of years, reunite to battle the evil Deviants."
+    },
+    {
+      "id":12,
+      "pages":{
+        "id":4,
+        "title":"MAPPA"
+      },
+      "productImg":"https://pbs.twimg.com/media/EZmRcqAVAAQNOFW.jpg",
+      "productName":"Chainsaw Man",
+      "productDescription":"The highly anticipated upcoming Chainsaw Man anime got a new trailer during this week’s Jump Festa event in Japan, along with confirmation that the series would be premiering in 2022."
+    },
+    {
+      "id":13,
+      "pages":{
+        "id":4,
+        "title":"MAPPA"
+      },
+      "productImg":"https://m.media-amazon.com/images/M/MV5BYzFmMjAwMDYtNzM0Zi00NjY2LWFjMjYtMGQ1OTRiZjk5YjJkXkEyXkFqcGdeQXVyMTMwODY5NDc2._V1_.jpg",
+      "productName":"Jujutsu Kaisen 0",
+      "productDescription":"Jujutsu Kaisen 0 is a Japanese manga series written and illustrated by Gege Akutami. Originally titled Tokyo Metropolitan Curse Technical School, it was serialized in Shueisha's Jump GIGA magazine from April to July 2017."
     }
   ],
   "posts": [

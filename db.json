@@ -87,6 +87,20 @@
       "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam aut a, sunt harum, corrupti dolorem exercitationem magni error deserunt incidunt, ullam esse? Delectus, accusantium? Dicta natus ab sunt repudiandae debitis.",
       "youtubeLink":"https://youtu.be/hnBzcLQUhYQ",
       "socialmediaLink":"https://www.instagram.com/marvel/?hl=en"
+    },
+    {
+      "id":6,
+      "logoImg":"https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg",
+      "title":"DC Comic",
+      "country":"USA",
+      "categories":{
+        "id":1,
+        "categoryName":"Comic"
+      },
+      "coverImg":"https://www.looper.com/img/gallery/why-what-just-happened-to-dc-universe-is-so-exciting/intro-1600458433.jpg",
+      "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam aut a, sunt harum, corrupti dolorem exercitationem magni error deserunt incidunt, ullam esse? Delectus, accusantium? Dicta natus ab sunt repudiandae debitis.",
+      "youtubeLink":"https://youtu.be/Yn1VqHSZznE",
+      "socialmediaLink":"https://www.instagram.com/dccomics/?hl=en"
     }
   ],
   "products":[

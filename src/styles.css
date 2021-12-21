@@ -5,4 +5,5 @@
 }
 body{
     background-color: rgb(29, 131, 161);
+    overflow-x: hidden;
 }
