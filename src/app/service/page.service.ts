@@ -1,7 +1,7 @@
-import { pagesUrl } from './../config/api';
+
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, pluck } from 'rxjs';
 import { Page } from '../models/page';
 
 @Injectable({
@@ -11,7 +11,8 @@ export class PageService {
 
   constructor(private http:HttpClient) { }
 
-  getPages():Observable<Page[]>{
-    return this.http.get<Page[]>(pagesUrl);
+  getPages():Observable<any>{
+    return this.http.get<Page[]>('assets/db.json')
+    .pipe(pluck('pages'));
   }
 }

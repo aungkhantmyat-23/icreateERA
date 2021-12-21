@@ -6,22 +6,21 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'app-page-card',
   templateUrl: './page-card.component.html',
-  styleUrls: ['./page-card.component.css']
+  styleUrls: ['./page-card.component.css'],
 })
 export class PageCardComponent implements OnInit {
-
   @Input()
   pageItem: Page;
-  constructor(private router: Router,
+  constructor(
+    private router: Router,
     private route: ActivatedRoute,
-    private pageService: PageService,) { }
+    private pageService: PageService
+  ) {}
 
-  ngOnInit(): void {
-  }
-  
+  ngOnInit(): void {}
+
   viewDetail(pageItem) {
-    this.router.navigate(['/page-detail'],
-     { state: pageItem });
+    console.log(pageItem),
+      this.router.navigate(['/page-detail'], { state: pageItem });
   }
-
 }

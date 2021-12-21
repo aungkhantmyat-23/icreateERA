@@ -11,6 +11,7 @@ import { ExhibitorsPageComponent } from './exhibitors-page/exhibitors-page.compo
 import { PagesDetailComponent } from './pages-detail/pages-detail.component';
 import { PageCardComponent } from './page-card/page-card.component';
 import { ProductCardComponent } from './product-card/product-card.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ProductCardComponent } from './product-card/product-card.component';
     PageCardComponent,
     PageFilter,
     ProductCardComponent,
-    PageProductFilter
+    PageProductFilter,
+    ProductDetailComponent
   ],
   imports: [
     BrowserModule,
