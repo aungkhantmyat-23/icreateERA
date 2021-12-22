@@ -8,7 +8,6 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class PageFilter implements PipeTransform {
   transform(value: Page[], categories: Category, name: string) {
     let temp = value;
-    console.log(categories, name);
 
     if (categories) {
       temp = temp.filter((page) => page.categories.id == categories.id);

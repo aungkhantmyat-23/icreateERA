@@ -3,6 +3,7 @@ import { Product } from './../models/product';
 import { Page } from './../models/page';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Component, Input, OnInit } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-pages-detail',
@@ -13,10 +14,9 @@ export class PagesDetailComponent implements OnInit {
   productList: Product[] = [];
   pageItem: Page;
   products: Product[];
-  productItem: Product;
+  productDetail: Product;
   constructor(
-    private route: ActivatedRoute,
-    private router: Router,
+    private sanitize: DomSanitizer,
     private productService: ProductService
   ) {}
 
@@ -25,8 +25,9 @@ export class PagesDetailComponent implements OnInit {
       this.productList = products;
     });
     this.pageItem = history.state;
-    console.log(history.state);
+  }
 
-    
+  sanitizerUrl(url: string) {
+    return this.sanitize.bypassSecurityTrustResourceUrl(url)
   }
 }

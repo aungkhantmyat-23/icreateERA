@@ -1,8 +1,14 @@
-<h2 class="title-text" [routerLink]="['/exhibitors']" routerLinkActive="router-link-active" ><i class="fas fa-arrow-left"></i> Back</h2>
+<h2
+  class="title-text"
+  [routerLink]="['/exhibitors']"
+  routerLinkActive="router-link-active"
+>
+  <i class="fas fa-arrow-left"></i> Back
+</h2>
 <div class="main-container">
   <img [src]="pageItem.coverImg" alt="" class="cover-img" />
   <div class="row text-youtube-row">
-    <div class="col-md-9">
+    <div class="col-md-7">
       <div class="text-container">
         <h2>
           {{ pageItem.title }}
@@ -14,22 +20,22 @@
           <button type="button" class="btn btn-primary col chat-btn">
             <i class="far fa-comment-dots"></i> Chat >
           </button>
-          <button
-            type="button"
+          <a
             id="ig-link"
-            ng-href="pageItem.socialmediaLink"
+            [href]="pageItem.socialmediaLink"
             class="btn btn-primary col social-btn"
+            target="_blank"
           >
             <i class="fab fa-instagram"></i> Social Media >
-          </button>
+        </a>
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-5">
       <div class="embed-responsive embed-responsive embed-responsive-4by3">
         <iframe
-          class="embed-responsive-item"
-          [src]="pageItem.youtubeLink"
+          class="e2e-iframe-trusted-src embed-responsive-item" 
+          [src]="sanitizerUrl(pageItem.youtubeLink)"
           allowfullscreen
         ></iframe>
       </div>
@@ -39,17 +45,22 @@
     <span> Product Gallery</span>
   </div>
 
-
-
-
-
   <div class="menu-wrapper">
     <ul class="menu">
       <li
         class="item"
         *ngFor="let product of productList | productFilter: pageItem"
       >
-        <app-product-card [productItem]="product"></app-product-card>
+        <div class="card" (click)="productDetail=product">
+          <img
+            [src]="product.productImg"
+            class="card-img-top"
+            alt="..."
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          />
+        </div>
+        
       </li>
     </ul>
     <div class="paddles">
@@ -62,6 +73,24 @@
       <button type="button" class="right-paddle2 paddle border-0 btn btn-white">
         <i class="fas fa-chevron-right text-black"></i>
       </button>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal" >
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img [src]="productDetail?.productImg" alt="" wid/>
+        <h5 class="modal-title" id="exampleModalLabel">
+          {{ productDetail?.productName }}
+        </h5>
+        <p>{{ productDetail?.productDescription }}</p>
+      </div>
+      <div class="modal-footer"></div>
     </div>
   </div>
 </div>

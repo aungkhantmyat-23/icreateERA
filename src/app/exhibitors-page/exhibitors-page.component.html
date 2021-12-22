@@ -2,6 +2,7 @@
 <div class="main-container">
   <div class="select-container">
     <select class="form-select" [(ngModel)]="category" >
+      <option value="" >All</option>
       <option [ngValue]="c" *ngFor="let c of categories">
         {{ c.categoryName }}
       </option>
@@ -17,7 +18,7 @@
       </div>
     </div>
     <ul class="alphabet-list">
-      <li (click)="pageName">All</li>
+      <li (click)="pageName=''">All</li>
       <li (click)="pageName = 'a'">A</li>
       <li (click)="pageName = 'b'">B</li>
       <li (click)="pageName = 'c'">C</li>
